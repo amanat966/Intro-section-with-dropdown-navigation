@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;900&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; width: 100%; margin-bottom: 10px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class = "header">
+    <a href="#" class ="logo"><img src="/images/logo.svg" alt="logo"></a>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li><a href="#" class="menu__link">Features</a>
+          <span class="menu__arrow arrow"><img src="/images/icon-arrow-down.svg" alt="arrow"></span>
+          <ul class = "sub-menu__list">
+            <li><img src="/images/icon-todo.svg" alt="todo"><a href="#" class="sub-menu__link">Todo list</a></li>
+            <li><img src="/images/icon-calendar.svg" alt="calendar"><a href="#" class="sub-menu__link">Calendar</a></li>
+            <li><img src="/images/icon-reminders.svg" alt="reminders"><a href="#" class="sub-menu__link">Reminders</a></li>
+            <li><img src="/images/icon-planning.svg" alt="plan"><a href="#" class="sub-menu__link">Planning</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="menu__link">Company</a>
+          <span class="menu__arrow arrow"><img src="/images/icon-arrow-down.svg" alt="arrow"></span>
+          <ul class = "sub-menu__list small">
+            <li><a href="#" class="sub-menu__link">History</a></li>
+            <li><a href="#" class="sub-menu__link">Our team</a></li>
+            <li><a href="#" class="sub-menu__link">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="menu__link">Careers</a></li>
+        <li><a href="#" class="menu__link">About</a></li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <a href="#" class = "btn">Login</a>
+      <a href="#" class = "btn bordered">Register</a>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="main-body">
+        <div class="left-block">
+          <h1>Make<br>remote work</h1>
+          <p>Get your team in sync, no matter your location.<br> Streamline processes, 
+            create team rituals,<br> and watch productivity soar.</p>
+            <a href="#" class = "btn-main">Learn more</a>
+            <div class="left-block__images">
+              <img src="/images/client-databiz.svg" alt="databiz">
+              <img src="/images/client-audiophile.svg" alt="audiophile">
+              <img src="/images/client-meet.svg" alt="meet">
+              <img src="/images/client-maker.svg" alt="maker">
+            </div>
+        </div>
+        <div class="right-block">
+          <img src="/images/image-hero-desktop.png" alt="hero">
+        </div>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kubashev Amanat</a>.
+    </div>
+  </main>
+  <script src="/js/script.js"></script>
+</body>
+</html>
